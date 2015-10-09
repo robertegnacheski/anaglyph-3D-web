@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Anaglyph 3D Web</title>
+
+<link href="demo.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+<h1>Heading 1</h1>
+
+<h2>jQuery</h2>
+
+<p></p>
+
+<h2>CSS Classes</h2>
+
+<h3>Text Colors</h3>
+
+<p>
+<span class="text-red">text-red</span> 
+<span class="text-blue">text-blue</span>
+</p>
+
+<h3>Text Shadows</h3>
+
+<p>
+<span class="text-shadow-red">text-shadow-red</span> 
+<span class="text-shadow-red-right">text-shadow-red-right</span> 
+<span class="text-shadow-red-bottom-right">text-shadow-red-bottom-right</span> 
+<span class="text-shadow-red-bottom">text-shadow-red-bottom</span> 
+<span class="text-shadow-red-bottom-left">text-shadow-red-bottom-left</span> 
+<span class="text-shadow-red-left">text-shadow-red-left</span> 
+<span class="text-shadow-red-top-left">text-shadow-red-top-left</span> 
+<span class="text-shadow-red-top">text-shadow-red-top</span> 
+<span class="text-shadow-red-top-right">text-shadow-red-top-right</span> 
+</p>
+
+<p>
+<span class="text-shadow-blue">text-shadow-blue</span> 
+<span class="text-shadow-blue-right">text-shadow-blue-right</span> 
+<span class="text-shadow-blue-bottom-right">text-shadow-blue-bottom-right</span> 
+<span class="text-shadow-blue-bottom">text-shadow-blue-bottom</span> 
+<span class="text-shadow-blue-bottom-left">text-shadow-blue-bottom-left</span> 
+<span class="text-shadow-blue-left">text-shadow-blue-left</span> 
+<span class="text-shadow-blue-top-left">text-shadow-blue-top-left</span> 
+<span class="text-shadow-blue-top">text-shadow-blue-top</span> 
+<span class="text-shadow-blue-top-right">text-shadow-blue-top-right</span> 
+</p>
+
+
+<h3>Text Colors + Text Shadows</h3>
+
+<p>
+<span class="text-red text-shadow-blue-bottom-right">text-red text-shadow-blue-bottom-right</span> 
+<span class="text-blue text-shadow-red-top-left">text-red text-shadow-blue-top-left</span>
+</p>
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="demo.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	applyTextShadow("h1", "-1px 1px 2px #F00, 1px -1px 2px #00F");
+	applyTextShadow("h2", "-5px 0px 1px rgba(255, 0, 0, .8), 5px 0px 1px rgba(0, 0, 255, 1)");
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+
+
+
+
+/* START Text Colors */
+
+.text-red{color:#F00;}
+.text-blue{color:#00F;}
+
+/* END Text Colors */
+
+
+/* START Text Shadows */
+
+.text-shadow-red{text-shadow: 0px 0px 2px #F00;}
+.text-shadow-red-right{text-shadow: 1px 0px 2px #F00;}
+.text-shadow-red-bottom-right{text-shadow: 1px 1px 2px #F00;}
+.text-shadow-red-bottom{text-shadow: 0px 1px 2px #F00;}
+.text-shadow-red-bottom-left{text-shadow: -1px 1px 2px #F00;}
+.text-shadow-red-left{text-shadow: -1px 0px 2px #F00;}
+.text-shadow-red-top-left{text-shadow: -1px -1px 2px #F00;}
+.text-shadow-red-top{text-shadow: 0px -1px 2px #F00;}
+.text-shadow-red-top-right{text-shadow: 1px -1px 2px #F00;}
+
+.text-shadow-blue{text-shadow: 0px 0px 2px #00F;}
+.text-shadow-blue-right{text-shadow: 1px 0px 2px #00F;}
+.text-shadow-blue-bottom-right{text-shadow: 1px 1px 2px #00F;}
+.text-shadow-blue-bottom{text-shadow: 0px 1px 2px #00F;}
+.text-shadow-blue-bottom-left{text-shadow: -1px 1px 2px #00F;}
+.text-shadow-blue-left{text-shadow: -1px 0px 2px #00F;}
+.text-shadow-blue-top-left{text-shadow: -1px -1px 2px #00F;}
+.text-shadow-blue-top{text-shadow: 0px -1px 2px #00F;}
+.text-shadow-blue-top-right{text-shadow: 1px -1px 2px #00F;}
+
+/* END Text Shadows */ 
